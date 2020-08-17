@@ -1,0 +1,495 @@
+
+
+.championHBox{
+    -fx-background-color: rgba(0, 100, 100, 0.4);
+    -fx-border-width:2;
+    -fx-border-radius: 7 7 7 7;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+
+.championInfoPane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-radius: 7 7 7 7;
+    -fx-effect: dropshadow(three-pass-box , rgba(192,222,220,0.02) , 5, 0.0 , 0 , 1);  
+}
+
+.leftPane{
+    -fx-background-color: transparent;
+    -fx-border-width:2;
+    -fx-border-radius: 7 7 7 7;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.rightPane{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-width:2;
+    -fx-border-radius: 7 7 7 7;
+    -fx-padding: 10 10 10 10;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.settingsPane{
+    -fx-background-color: rgba(0, 0, 0, 0.9);
+    -fx-border-width: 2;
+    -fx-border-color: azure;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.text-area {
+    -fx-background-color: rgba(53,89,119,0.2);
+    -fx-text-fill: gold;
+    -fx-font-family: Helvetica;
+    -fx-font-size: 12;
+    -fx-text-inner-color: white;
+    -fx-border-style:solid;
+    -fx-border-color:greenyellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 7 7 7 7;
+    -fx-font-smoothing-type: lcd;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.tfuserMessage{
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-font-family: Helvetica;
+    -fx-font-size: 16;
+    -fx-text-inner-color: white;
+    -fx-border-style:solid;
+    -fx-border-width:2;
+    -fx-border-radius: 5 5 5 5;
+}
+
+
+
+.rightPaneButton{
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),
+        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+.rightPaneButton Text {
+    -fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 );
+}
+
+.rightPaneButton:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 10 10 10 10;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+}
+
+.buttonPlay{
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 5,4,3,5;
+    -fx-padding: 12 30 12 30;
+    -fx-font-family:"Tahoma";
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight:BOLD;
+}
+
+.gameSquare{
+    -fx-border-width:2;
+    -fx-border-color:#000099;
+    -fx-border-radius: 7 7 7 7;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow(three-pass-box , rgba(192,222,220,0.02) , 5, 0.0 , 0 , 1);
+}
+
+
+.descriptionText{
+    -fx-font-family:"Tahoma";
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.txtNexusDescription{
+    -fx-font-family:"Helvetica";
+    -fx-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-smoothing-type: lcd;
+}
+
+
+.lblType{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box, goldenrod, 10, 0, 0, 0);
+}
+
+.lblName{
+    -fx-font-family:"Algerian";
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+}
+
+
+
+.warningPane{
+    -fx-background-color: rgba(200, 0, 0, 0.4);
+    -fx-border-width:2;
+    -fx-border-radius: 7 7 7 7;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );  
+}
+
+.warningText{
+    -fx-font-family:"Arial";
+    -fx-text-fill: #a59c31;
+    -fx-font-size: 12px;
+    -fx-font-weight:BOLD;
+    -fx-font-smoothing-type: lcd;
+}
+
+.txtChampName{
+    -fx-font-family: "Algerian";
+    -fx-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-smoothing-type: lcd;
+}
+
+
+.hoverPane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-color:greenyellow;
+    -fx-padding:  8 8 8 8 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0);
+
+}
+
+.hoverText{
+    -fx-font-family:"Tahoma";
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-smoothing-type: lcd
+}
+
+.hpText{
+    -fx-font-family:"Tahoma";
+    -fx-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-smoothing-type: lcd
+}
+
+.page-corner {
+    -fx-padding: 4.5 4.5 4.5 4.5;
+    -fx-background-color: linear-gradient( from 0% 0% to 50% 50%, #fcf7b6, #a59c31);
+    -fx-shape: "M0,0H9L0,9Z";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 4 , 0.0 , 0 , 0 );
+}
+
+.settingsGrid{
+    -fx-background-color: #71cee8;
+    -fx-background-color:rgba(0, 12,22,0.4);
+    -fx-effect: dropshadow(three-pass-box , rgba(192,222,220,0.02) , 5, 0.0 , 0 , 1);
+}
+
+
+.hpbarally .track{
+    -fx-background-color:#645e5e; 
+    -fx-background-radius: 10, 10, 10, 10;
+}
+
+.hpbarenemy .track{
+    -fx-background-color:#645e5e;
+    -fx-background-radius: 10, 10, 10, 10;
+}
+
+.hpbarally .bar{
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        green; /* this line is the background color of the bar */
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+}
+
+.hpbarenemy .bar{
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        red; /* this line is the background color of the bar */
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+    -fx-font-family:"Tahoma";
+    -fx-padding: 5 5 5 5;
+    -fx-font-size: 12px;
+    -fx-font-weight:BOLD;
+    -fx-font-smoothing-type: lcd;
+}
+
+.menu-item:focused {
+    -fx-background-color: darkgray;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: blue;
+}
+
+.context-menu {
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-color: #BBC2CC;
+    -fx-border-radius: 10 10 10 10;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-font-family:"Algerian";
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box, gray, 10, 0, 0, 0);
+
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: gold;
+}
+
+/*
+rb.setFont(Font.font("Helvetica", FontWeight.BOLD, 22));
+rb.gettex.setFill(Color.WHITE);
+rb.setFontSmoothingType(FontSmoothingType.LCD);
+*/
+
+.radio-button {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-smoothing-type: lcd;
+}
+
+.searchText {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 26;
+    -fx-text-fill: lightgoldenrodyellow;
+    -fx-effect: dropshadow(one-pass-box , rgba(0, 0.1, 0.1, 0.6), 0, 0.0 , 0 , 1 );
+    -fx-font-smoothing-type: lcd;
+}
+
+.scroll-bar{
+    -fx-background-color: rgba(192,192,192,0.12);
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar: vertical {
+    -fx-pref-width:18px; 
+}
+.scroll-bar >.viewport{
+    -fx-background-color: rgba(192,192,192,0.12); 
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgb(231,231,231);
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: rgb(255,255,255);
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: rgb(211,211,211);
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
+
+.lblChamps{
+    -fx-font-family: "Algerian";
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(one-pass-box , rgba(0, 0, 0, 0.6), 0, 0.0 , 0 , 1 );
+}
+
+.selectionBox{
+    -fx-background-color:rgba(0, 0, 0, 0.2);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-color:greenyellow;
+    -fx-padding:  8 8 8 8 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0); 
+}
+
+
+
+.loginLabel{
+    -fx-font-family:"Helvetica";
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(one-pass-box , rgba(0, 0, 0, 0.6), 0, 0.0 , 0 , 1 );
+    -fx-font-smoothing-type: lcd;
+    -fx-font-weight: bold;
+
+}
+
+.loginPane{
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-border-width:2;
+    -fx-border-radius: 7 7 7 7;
+    -fx-border-style:solid;
+    -fx-effect: dropshadow( three-pass-box , rgba(192,222,220,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.abilityPane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-radius: 10 10 10 10;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    -fx-border-color: #a50c6e;           
+}
+
+.passivePane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-radius: 10 10 10 10;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    -fx-border-color: #55318b; 
+}
+
+.lblLeftUserName{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-smoothing-type: lcd; 
+}
+
+.lblRightUserName{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-smoothing-type: lcd; 
+}
+
+
+.lblUserRank{
+    -fx-font-family:"Algerian";
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 16px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.markpane{
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    -fx-border-color: #55318b; 
+}
+
+.markLabel{
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-smoothing-type: lcd;
+    -fx-effect: dropshadow(three-pass-box, goldenrod, 10, 0, 0, 0);  
+}
+
+.markText{
+    -fx-font-family:"Tahoma";
+    -fx-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-smoothing-type: lcd;
+}
+
+
+
+

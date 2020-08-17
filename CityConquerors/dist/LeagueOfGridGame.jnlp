@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LeagueOfGridGame.jnlp">
+  <information>
+    <title>LeagueOfGridGame</title>
+    <vendor>chenshandi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Xms3g -Xmx3g "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LeagueOfGridGame.jar" size="36173481" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="LeagueOfGridGame" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="leagueofgridgame.LeagueOfGridGame"  name="LeagueOfGridGame" />
+  <update check="always"/>
+</jnlp>
